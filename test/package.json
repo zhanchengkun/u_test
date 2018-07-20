@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "start": "umi dev",
-    "build": "umi build",
+    "build": "set PUBLIC_PATH=/u_test/static/&&umi build",
     "lint": "eslint --ext .js src test",
     "precommit": "npm run lint"
   },
